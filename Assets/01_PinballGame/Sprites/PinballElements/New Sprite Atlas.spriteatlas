@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 776159939a8adb14699483584aecd752, type: 3}
-    totalSpriteSurfaceArea: 135582
+    totalSpriteSurfaceArea: 175582
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -54,6 +54,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0e4fbb12bb892a8409aeaa940dfc61c8, type: 3}
   - {fileID: 21300000, guid: faddcf5390f4db5458fa82a1860706c6, type: 3}
   - {fileID: 21300000, guid: 5a185d0c9625b41449df01ea724f619a, type: 3}
+  - {fileID: 21300000, guid: 8417c95cc3a6d0547805a5b8696bf6f3, type: 3}
   - {fileID: 21300000, guid: 83c3723de8d16ab429acc66a12a0d66a, type: 3}
   - {fileID: 21300000, guid: 4308daceed6203649ad27e3ddea7b083, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -61,6 +62,7 @@ SpriteAtlas:
   - slingshot
   - patch btn a
   - starter
+  - springs
   - flipper_left
   - flipper_right
   m_RenderDataMap: {}

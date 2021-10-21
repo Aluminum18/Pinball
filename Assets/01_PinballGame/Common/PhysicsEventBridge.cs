@@ -10,6 +10,8 @@ public class PhysicsEventBridge : MonoBehaviour
     [SerializeField]
     private UnityEvent _onTriggerEnter2D;
     [SerializeField]
+    private UnityEvent _onTriggerExit2D;
+    [SerializeField]
     private UnityEvent _onCollisionEnter2D;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,6 +22,16 @@ public class PhysicsEventBridge : MonoBehaviour
         }
 
         _onTriggerEnter2D.Invoke();
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if ((1 << collision.gameObject.layer & _contactMask) == 0)
+        {
+            return;
+        }
+
+        _onTriggerExit2D.Invoke();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
