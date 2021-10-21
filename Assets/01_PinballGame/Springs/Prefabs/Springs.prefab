@@ -615,7 +615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _refFloat: {fileID: 11400000, guid: 8a1935d2447e5024085d7761d0ef84a0, type: 2}
   _targetEffector: {fileID: 3765486500491440702}
-  _exchangeFactor: 80
+  _exchangeFactor: 70
   _activeUpdate: 1
 --- !u!1 &3765486501683572081
 GameObject:

@@ -109,7 +109,7 @@ MonoBehaviour:
   _duration: 0.1
   _useCurrentAsFrom: 1
   _from: {x: 0, y: 0, z: 0}
-  _to: {x: 1.26, y: 3.45, z: 0}
+  _to: {x: 1.32, y: 3.4, z: 0}
   _onStartTween:
     m_PersistentCalls:
       m_Calls:
