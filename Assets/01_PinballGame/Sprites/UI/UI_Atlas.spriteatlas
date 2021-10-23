@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Sprite Atlas
+  m_Name: UI_Atlas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -39,36 +39,26 @@ SpriteAtlas:
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
-      enableTightPacking: 0
+      enableTightPacking: 1
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 776159939a8adb14699483584aecd752, type: 3}
-    totalSpriteSurfaceArea: 627694
+    - {fileID: 102900000, guid: 03bad08d2b3760341b44c35377f5aaa0, type: 3}
+    totalSpriteSurfaceArea: 194936
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 0e714910e8a2dca49bd3f425ebd579fb, type: 3}
-  - {fileID: 21300000, guid: 0e4fbb12bb892a8409aeaa940dfc61c8, type: 3}
-  - {fileID: 21300000, guid: faddcf5390f4db5458fa82a1860706c6, type: 3}
-  - {fileID: 21300000, guid: 5a185d0c9625b41449df01ea724f619a, type: 3}
-  - {fileID: 21300000, guid: 8417c95cc3a6d0547805a5b8696bf6f3, type: 3}
-  - {fileID: 21300000, guid: 83c3723de8d16ab429acc66a12a0d66a, type: 3}
-  - {fileID: 21300000, guid: 1dcc995dd7e895c47a80b466b41cd6a6, type: 3}
-  - {fileID: 21300000, guid: b5ee065e51eab774d9ee050d8ff1c662, type: 3}
-  - {fileID: 21300000, guid: 4308daceed6203649ad27e3ddea7b083, type: 3}
+  - {fileID: 21300000, guid: 50d3d884bc90d42439c1f981761eec46, type: 3}
+  - {fileID: 21300000, guid: efc390d8dd8aaf24786a0d25360d4dd6, type: 3}
+  - {fileID: 21300000, guid: 711b0e5aa46d48b459279be3878fb66e, type: 3}
+  - {fileID: 21300000, guid: 737cf5bffc7587041969f0bca0473de8, type: 3}
   m_PackedSpriteNamesToIndex:
-  - ball
-  - slingshot
+  - btn_yellow
+  - decor BG
+  - lot patch
   - patch btn a
-  - starter
-  - springs
-  - flipper_left
-  - balloon
-  - Spade
-  - flipper_right
   m_RenderDataMap: {}
-  m_Tag: New Sprite Atlas
+  m_Tag: UI_Atlas
   m_IsVariant: 0

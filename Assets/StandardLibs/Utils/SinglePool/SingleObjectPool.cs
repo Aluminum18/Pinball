@@ -43,6 +43,7 @@ public class SingleObjectPool : MonoBehaviour
         {
             go = Instantiate(_objectInPool);
             go.AddComponent<ObjectInSinglePool>().SetParrent(this);
+            go.SetActive(true);
             return go;
         }
 
