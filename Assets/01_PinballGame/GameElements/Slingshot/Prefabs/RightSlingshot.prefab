@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 2280110364743955203}
   - component: {fileID: 1619835188271239052}
   - component: {fileID: 4911187462113681044}
+  - component: {fileID: 8790861655594178374}
   m_Layer: 0
   m_Name: Effectors
   m_TagString: Untagged
@@ -351,3 +352,39 @@ AreaEffector2D:
   m_ForceTarget: 0
   m_Drag: 0
   m_AngularDrag: 0
+--- !u!114 &8790861655594178374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8500015190734046418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8507a3883126b4aa4205d812dbf421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _contactMask:
+    serializedVersion: 2
+    m_Bits: 128
+  _onTriggerEnter2D:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: f704970a6d1f84b4d929b3c6b7bf1dc5, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onTriggerExit2D:
+    m_PersistentCalls:
+      m_Calls: []
+  _onCollisionEnter2D:
+    m_PersistentCalls:
+      m_Calls: []
